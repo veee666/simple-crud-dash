@@ -20,5 +20,6 @@ use App\Http\Controllers\LibraryController;
 
 Route::resource('library', LibraryController::class);
 Route::get('/', function(){
-    return redirect()->route('library.index');
+    // return redirect()->route('library.index');
+    return "hi, it's from oxy!";
 });
